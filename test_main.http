@@ -1,0 +1,19 @@
+### Single-Text Classification Endpoint
+
+POST http://127.0.0.1:8000/classify
+Content-Type: application/json
+
+{
+  "text": "Sample text for classification",
+  "candidate_labels": ["label1", "label2", "label3"]
+}
+
+### Batch Text Classification Endpoint
+
+POST http://127.0.0.1:8000/classify_batch
+Content-Type: application/json
+
+{
+  "texts": ["Text 1", "Text 2", "Text 3"],
+  "candidate_labels": ["label1", "label2", "label3"]
+}

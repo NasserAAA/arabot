@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "arabot"
+version = "0.1.0"
+description = ""
+authors = ["NasserAAA <mohamed.abdelmabood@student.guc.edu.eg>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+transformers = "^4.33.1"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
